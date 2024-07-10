@@ -6,7 +6,7 @@ $ npm init -y
 
 
 1. Install Packages
-$ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader sass-loader node-sass
+$ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader sass-loader sass
 
 
 2. NPM Scripting

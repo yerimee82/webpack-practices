@@ -13,5 +13,11 @@ module.exports = {
         liveReload: true,
         compress: true,
         hot: false
-    }        
+    },
+    module: {
+        rules:[{
+          test: /\.(c|sa|sc)ss$/i,
+          use:['style-loader', 'css-loader', 'sass-loader']
+        }]
+    }    
 }
